@@ -1,0 +1,87 @@
+#root {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	background: -webkit-linear-gradient(
+		to right,
+		#f2f3f0,
+		#d6d2d1
+	); 
+	background: linear-gradient(to right, #e9e5e7, #e6dedc);
+}
+
+.App {
+	width: 650px;
+	display: flex;
+	height: 850px;
+	justify-content: space-around;
+	flex-direction: column;
+	background: #ffff;
+  border-radius: 10px;
+}
+
+form {
+	width: 290px;
+	margin: 20px auto;
+}
+
+input {
+	background: #f9f9f9;
+	padding: 10px;
+	width: 270px;
+	border: none;
+	margin-bottom: 20px;
+	font-size: 14px;
+	color: rgb(0, 0, 0);
+	outline: none;
+	font-weight: 300;
+}
+
+.rccs__card--unknown > div {
+	background: #989e9b;
+}
+
+.cards-wrap {
+  display:flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.cards-wrap .rccs {
+  margin: 0;
+  width: auto;
+}
+
+.btn-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.save-btn {
+  background-color: royalblue;
+  width: 290px;
+  margin: 0 auto 20px;
+  text-align: center;
+  color: white;
+  height: 40px;
+  border: 0;
+}
+
+.cards-wrap .rccs .rccs__card {
+  margin: 0 20px;
+}
+
+.card-btn {
+  cursor: pointer;
+  width: 290px;
+  height: 182px;
+  border-radius: 25px;
+  margin: 0 20px;
+  font-size: 42px;
+  font-weight: 700;
+  border: 3px dashed black;
+  background-color: #989e9b;
+}
