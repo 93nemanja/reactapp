@@ -24,13 +24,13 @@ const Card = () => {
 				number={data.number}
 			/>
 			<form action="">
-                <input
+				<input
 					type="text"
 					name="name"
 					placeholder="Your Name"
 					onChange={handleInputChange}
 				/>
-                <input
+				<input
 					type="number"
 					name="number"
 					placeholder="Card Number"
@@ -41,20 +41,20 @@ const Card = () => {
 					name="expiry"
 					placeholder="Expire Date"
 					onChange={handleInputChange}
-				/>	
+				/>
 			</form>
-            <div className="btn-wrap">
-                <button type="submit" className="save-btn">Save</button>
-            </div>
-            <div className="cards-wrap">
-            <Cards
-				expiry={data.expiry}
-				focus={data.focus}
-				name={data.name}
-				number={data.number}
-			/>
-            <button className="card-btn">+</button>
-            </div>
+			<div className="btn-wrap">
+				<button type="submit" className="save-btn">Save</button>
+			</div>
+			<div className="cards-wrap">
+				<Cards
+					expiry={data.expiry}
+					focus={data.focus}
+					name={data.name}
+					number={data.number}
+				/>
+				<button className="card-btn">+</button>
+			</div>
 		</div>
 	);
 };
